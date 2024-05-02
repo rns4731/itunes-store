@@ -54,7 +54,7 @@ POST http://127.0.0.1:8000/api/artists/ - create an artist
 ```
 
 
-POST http://127.0.0.1:8000/api/albums/ - create an album with the following json payload
+POST http://127.0.0.1:8000/api/albums/ - create an album with the following json payload, ensure the artist has already been created.
 ```
 {
     "artist": 3,
