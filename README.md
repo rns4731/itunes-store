@@ -39,8 +39,11 @@ Now you should be able to access the following endpoints available for testing.
 GET http://127.0.0.1:8000/api/artists/ - get a list of artists
 
 GET http://127.0.0.1:8000/api/artists/:artistid/albums - get a list of albums for the artist
+
 GET http://127.0.0.1:8000/api/artists/:artistid/albums?include_tracklist=true - get a list of albums for the artist with tracks
+
 GET http://127.0.0.1:8000/api/artists/:artistid/albums?release_date=:string - get a list of albums for the artist filtered by release date
+
 GET http://127.0.0.1:8000/api/artists/:artistid/albums?price=:number - get a list of albums for the artist filtered by price
 
 POST http://127.0.0.1:8000/api/artists/ - create an artist
